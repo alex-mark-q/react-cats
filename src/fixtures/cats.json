@@ -1,0 +1,62 @@
+[
+  {
+    "id": 0,
+    "title": "Кот полосатый",
+    "image": "./images/cat_0.png",
+    "alt": "Tiger",
+    "sale": "30000",
+    "color": "Коричневый окрас",
+    "age": "2",
+    "foot": "4"
+  },
+    {
+    "id": 1,
+    "title": "Кот полосатый",
+    "image": "./images/cat_0.png",
+    "alt": "Tiger",
+    "sale": "20000",
+    "color": "Коричневый окрас",
+    "age": "2",
+    "foot": "4"
+  },
+  {
+    "id": 2,
+    "title": "Кот полосатый",
+    "image": "./images/cat_1.png",
+    "alt": "Tiger",
+    "sale": "10000",
+    "color": "Коричневый окрас",
+    "age": "2",
+    "foot": "4"
+  },
+  {
+    "id": 3,
+    "title": "Кот полосатый",
+    "image": "./images/cat_0.png",
+    "alt": "Tiger",
+    "sale": "30000",
+    "color": "Коричневый окрас",
+    "age": "2",
+    "foot": "4"
+  },
+  {
+    "id": 4,
+    "title": "Кот полосатый",
+    "image": "./images/cat_2.png",
+    "alt": "Tiger",
+    "sale": "30000",
+    "color": "Коричневый окрас",
+    "age": "2",
+    "foot": "4"
+  },
+  {
+    "id": 5,
+    "title": "Кот полосатый",
+    "image": "./images/cat_2.png",
+    "alt": "Tiger",
+    "sale": "30000",
+    "color": "Коричневый окрас",
+    "age": "2",
+    "foot": "4"
+  }
+]
