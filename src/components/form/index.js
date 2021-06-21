@@ -10,7 +10,7 @@ Form.Input = function FormInput({ ...restProps }) {
 Form.Button = function FormButton({ children, ...restProps }) {
 	return (
 		<Button { ...restProps }>
-			{ children } <img src="/images/icons/chevron-right.png" alt="placeholder+image" />
+			{ children } 
 		</Button>
 	)
 };

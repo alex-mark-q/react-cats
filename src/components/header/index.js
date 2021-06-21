@@ -1,12 +1,16 @@
 import React from 'react';
-import { Background, Container, Logo, Tel, Span, Column, Find } from './styles/header';
+import { Background, Wrapper, Top, Logo, Tel, Span, Column, Find } from './styles/header';
 
-export default function Header({ children, ...restProps }) {
-	return <Background { ...restProps }>{ children }</Background>;
+export default function Header({ bg = true, children, ...restProps }) {
+	return bg ? <Background { ...restProps }>{ children }</Background> : children;
 };
 
-Header.Frame = function HeaderFrame({ children, ...restProps }) {
-	return <Container { ...restProps }>{ children }</Container>
+Header.Wrapper = function HeaderWrapper({ children, ...restProps }) {
+  return <Wrapper { ...restProps }>{ children }</Wrapper>
+};
+
+Header.Top = function HeaderTop({ children, ...restProps }) {
+	return <Top { ...restProps }>{ children }</Top>
 };
 
 Header.Logo = function HeaderLogo({ ...restProps }) {

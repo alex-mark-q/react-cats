@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, Wrapper, Title, About, Sale, Buy, Color, Age, Foot, Image, AboutWrapper, Item } from './styles/cat'
+import { Link, Wrapper, Title, About, Sale, Buy, Color, Age, Foot, Image, AboutWrapper, Item, H3 } from './styles/cat'
 
 export default function Cat({ children, ...restProps }) {
 	return (
@@ -21,7 +21,13 @@ Cat.Link = function CatLink({ children, ...restProps }) {
 	)
 }
 Cat.Title = function CatTitle({ children, ...restProps }) {
-	return <Title { ...restProps }>{ children }</Title>
+	return (
+		<Title { ...restProps }>
+			<H3>
+				{children}
+			</H3>
+		</Title>
+	)
 }
 Cat.About = function CatAbout({ children, ...restProps }) {
 	return (

@@ -1,6 +1,7 @@
 import styled from 'styled-components/macro';
 
 export const Inner = styled.article`
+	display: flex;
 	max-width: 1626px;
 	margin: 0 auto;
 `;
